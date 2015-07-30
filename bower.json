@@ -2,9 +2,7 @@
   "name": "adapt-extension",
   "version": "0.0.2",
   "homepage": "https://github.com/adaptlearning/adapt-extension",
-  "authors": [
-    "AdaptLearning"
-  ],
+  "issues": "https://github.com/adaptlearning/adapt-extension/issues",
   "displayName" : "Extension",
   "extension" : "extension",
   "description": "A skeleton extension for creating extensions",
