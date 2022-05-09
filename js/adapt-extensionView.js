@@ -1,4 +1,4 @@
-import Adapt from 'coreJS/adapt';
+import Adapt from 'core/js/adapt';
 import Backbone from 'backbone';
 
 export default class ExtensionView extends Backbone.View {

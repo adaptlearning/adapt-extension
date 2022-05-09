@@ -1,4 +1,4 @@
-import Adapt from 'coreJS/adapt';
+import Adapt from 'core/js/adapt';
 import Backbone from 'backbone';
 import ExtensionView from 'extensions/adapt-extension/js/adapt-extensionView';
 
