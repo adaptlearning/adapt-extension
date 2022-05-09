@@ -1,12 +1,12 @@
-define(function(require) {
+import Adapt from 'coreJS/adapt';
+import Backbone from 'backbone';
+import ExtensionView from 'extensions/adapt-extension/js/adapt-extensionView';
 
-    var Adapt = require('coreJS/adapt');
-    var Backbone = require('backbone');
-    var ExtensionView = require('extensions/adapt-extension/js/adapt-extensionView');
-
+export default class Extension extends Backbone.Controller {
+  initialize() {
     // Listen to when the data is all loaded
-    Adapt.on('app:dataReady', function() {
-        console.log('Plugin has loaded and data is ready');
+    Adapt.listenTo('app:dataReady', function() {
+      console.log('Plugin has loaded and data is ready');
     });
-
-});
+  }
+}
