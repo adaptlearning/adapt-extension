@@ -1,6 +1,6 @@
 import Adapt from 'core/js/adapt';
 import Backbone from 'backbone';
-import ExtensionView from 'extensions/adapt-extension/js/ExtensionView.js';
+import ExtensionView from 'extensions/adapt-extension/js/ExtensionView';
 
 export default class Extension extends Backbone.Controller {
   initialize() {
